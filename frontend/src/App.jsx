@@ -195,28 +195,12 @@ export default function App() {
         <div className="header-inner">
           <div className="logo">
             <div className="logo-mark">
-              <svg viewBox="0 0 32 32" width="32" height="32" fill="none">
-                <rect width="32" height="32" rx="8" fill="url(#hgrad)"/>
-                <path d="M9 11l-4 5 4 5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M23 11l4 5-4 5" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                <path d="M19 8l-6 16" stroke="rgba(255,255,255,0.5)" strokeWidth="2" strokeLinecap="round"/>
-                <defs>
-                  <linearGradient id="hgrad" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
-                    <stop stopColor="#3b82f6"/><stop offset="1" stopColor="#8b5cf6"/>
-                  </linearGradient>
-                </defs>
-              </svg>
+              <img src="/favicon.png" alt="CodeBridge Logo" width="32" height="32" style={{ borderRadius: '8px' }} />
             </div>
             <div className="logo-text">
               <span className="logo-name">CodeBridge</span>
               <span className="logo-sub">AI Translator</span>
             </div>
-          </div>
-          <div className="header-right">
-            <span className="nav-chip">
-              <span className="nav-chip-dot"></span>Gemini Flash
-            </span>
-            <span className="nav-chip nav-chip-outline">12 Languages</span>
           </div>
         </div>
       </header>
